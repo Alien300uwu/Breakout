@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Bola : MonoBehaviour
 {
+
+    public bool isGameStart = false;
+    [SerializeField] public float velocidadBola = 10.0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +19,14 @@ public class Bola : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.Space)|| Input.GetButton("submit"))
+        {
+            if (!isGameStart)
+            {
+                isGameStart = true;
+                this.transform.SetParent(null);
+                GetComponent<Rigidbody>().velocity = velocidadBola * Vector3.up;
+            }
+        }
     }
 }

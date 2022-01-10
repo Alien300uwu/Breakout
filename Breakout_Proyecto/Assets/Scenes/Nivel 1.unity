@@ -354,6 +354,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bola
       objectReference: {fileID: 0}
+    - target: {fileID: 1797610896502857107, guid: 759d8eae281e9074bacb333f865d4644, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 759d8eae281e9074bacb333f865d4644, type: 3}
 --- !u!1001 &1741351103
