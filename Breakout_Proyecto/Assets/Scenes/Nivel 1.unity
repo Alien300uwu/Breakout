@@ -306,6 +306,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4288047165791463001, guid: 759d8eae281e9074bacb333f865d4644, type: 3}
+      propertyPath: velocidadBola
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 125769390603254101, guid: 759d8eae281e9074bacb333f865d4644, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -316,7 +320,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 125769390603254101, guid: 759d8eae281e9074bacb333f865d4644, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -9.4
       objectReference: {fileID: 0}
     - target: {fileID: 125769390603254101, guid: 759d8eae281e9074bacb333f865d4644, type: 3}
       propertyPath: m_LocalPosition.z
@@ -369,7 +373,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -799593843017293689, guid: c652669d45d69f34c9df141729c8e17e, type: 3}
       propertyPath: VelocidadPaddle
-      value: 20
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 131659652419394833, guid: c652669d45d69f34c9df141729c8e17e, type: 3}
       propertyPath: m_RootOrder
