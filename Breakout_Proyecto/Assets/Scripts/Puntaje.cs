@@ -22,7 +22,7 @@ public class Puntaje : MonoBehaviour
         //puntajeAlto = PlayerPrefs.GetInt("PuntajeAlto");
         //}
         puntajeAltoSO.Cargar();
-        textoPuntajeAlto.text = $"PuntajeAlto:{puntajeAltoSO}";
+        textoPuntajeAlto.text = $"PuntajeAlto:{puntajeAltoSO.puntajeAlto}";
         puntajeAltoSO.puntaje = 0;
     }
     private void FixedUpdate()

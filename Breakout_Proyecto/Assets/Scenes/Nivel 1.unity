@@ -123,6 +123,32 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &290347090 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1426556089428366212, guid: 759d8eae281e9074bacb333f865d4644, type: 3}
+  m_PrefabInstance: {fileID: 1667173969}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &290347097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290347090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63532f1b6d6af9c41931da8157240d6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radio: 1
+  mantenerEnPantalla: 0
+  estaEnPantalla: 1
+  anchoCamara: 0
+  altoCamara: 0
+  salioDerecha: 0
+  salioIzquierda: 0
+  salioArriba: 0
+  salioAbajo: 0
 --- !u!1 &675318538
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,6 +390,7 @@ GameObject:
   - component: {fileID: 963194229}
   - component: {fileID: 963194230}
   - component: {fileID: 963194231}
+  - component: {fileID: 963194232}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -487,11 +514,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19247082737d43347b6502a919fcc9e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transformPuntajeAlto: {fileID: 0}
-  transformPuntajeActual: {fileID: 0}
-  textoPuntajeAlto: {fileID: 0}
-  textoActual: {fileID: 0}
+  transformPuntajeAlto: {fileID: 1065865863}
+  transformPuntajeActual: {fileID: 675318539}
+  textoPuntajeAlto: {fileID: 1065865864}
+  textoActual: {fileID: 675318540}
   puntajeAltoSO: {fileID: 11400000, guid: 6d3a9b48f9f498f48a60abafd8956b42, type: 2}
+--- !u!114 &963194232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63532f1b6d6af9c41931da8157240d6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radio: 1
+  mantenerEnPantalla: 0
+  estaEnPantalla: 1
+  anchoCamara: 0
+  altoCamara: 0
+  salioDerecha: 0
+  salioIzquierda: 0
+  salioArriba: 0
+  salioAbajo: 0
 --- !u!1 &1048199956
 GameObject:
   m_ObjectHideFlags: 0
