@@ -44,6 +44,7 @@ public class ControlBordes : MonoBehaviour
         if (pos.y < -altoCamara + radio)
         {                        
             pos.y = -altoCamara + radio;
+            salioAbajo = true;
         }
 
         estaEnPantalla = !(salioAbajo || salioArriba || salioDerecha || salioIzquierda);

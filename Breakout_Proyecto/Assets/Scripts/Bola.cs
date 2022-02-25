@@ -34,6 +34,7 @@ public class Bola : MonoBehaviour
     {
         if(control.salioAbajo)
         {
+            Debug.Log("La bola salió abajo");
             BolaDestruida.Invoke();
             Destroy(this.gameObject);
         }
@@ -62,7 +63,7 @@ public class Bola : MonoBehaviour
         if (control.salioIzquierda)
         {
             dirreccion = transform.position - ultimaPosicion;
-            Debug.Log("La bola toco el borde isquierdo");
+            Debug.Log("La bola toco el borde izquierdo");
             dirreccion.x *= -1;
             dirreccion = dirreccion.normalized;
             rigidbody.velocity = velocidadBola * dirreccion;

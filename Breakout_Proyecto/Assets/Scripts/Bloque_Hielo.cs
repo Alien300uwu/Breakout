@@ -13,9 +13,9 @@ public class Bloque_Hielo : Bloque
         resistencia = 2;
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void RebotarBola(Collision collision)
     {
-        
+        base.RebotarBola(collision);
     }
+
 }
