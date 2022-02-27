@@ -6,17 +6,22 @@ using UnityEngine.Events;
 public class Bola : MonoBehaviour
 {
 
+    public Opciones CambioDif;
+
     public bool isGameStart = false;
-    [SerializeField] public float velocidadBola = 10.0f;
+    [SerializeField] public float velocidadBola = 10.0f; 
     Vector3 ultimaPosicion = Vector3.zero;
     Vector3 dirreccion = Vector3.zero;
     Rigidbody rigidbody;
     private ControlBordes control;
     public UnityEvent BolaDestruida;
+    
 
     private void Awake()
     {
         control = GetComponent<ControlBordes>();
+
+        velocidadBola = velocidadBola;
     }
 
     // Start is called before the first frame update
@@ -27,6 +32,7 @@ public class Bola : MonoBehaviour
         this.transform.position = posicionInicial;
         this.transform.SetParent(GameObject.FindGameObjectWithTag("Jugador").transform);
         rigidbody = this.gameObject.GetComponent<Rigidbody>();
+
     }
 
     // Update is called once per frame
@@ -81,6 +87,13 @@ public class Bola : MonoBehaviour
                 GetComponent<Rigidbody>().velocity = velocidadBola * Vector3.up;
             }
         }
+
+
+        var velobola = CambioDif.velocidadBola;
+        Debug.Log(velobola);
+        velocidadBola = velobola;
+
+
     }
     private void HabilitarControl()
     {

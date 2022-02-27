@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: PuntajeAlto
   m_EditorClassIdentifier: 
   puntaje: 0
-  puntajeAlto: 2000
+  puntajeAlto: 0

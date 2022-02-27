@@ -141,3 +141,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  CambioDif: {fileID: 11400000, guid: dc8af65a4563afc49b18881f96a36906, type: 2}
+  facil: 0
+  dificil: 2

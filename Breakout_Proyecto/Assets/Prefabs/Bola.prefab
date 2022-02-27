@@ -126,6 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ae73cfaca59c814fbecb2c3726fd8bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CambioDif: {fileID: 11400000, guid: dc8af65a4563afc49b18881f96a36906, type: 2}
   isGameStart: 0
   velocidadBola: 20
   BolaDestruida:
